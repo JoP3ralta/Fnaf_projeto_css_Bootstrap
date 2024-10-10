@@ -1,0 +1,52 @@
+/* Navbar personalizado */
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.btn-primary {
+    background-color: #795548;
+    
+    border-color: #795548;
+}
+
+.btn-primary:hover {
+    background-color: #5d4037;
+    /* Marrom mais escuro */
+    border-color: #5d4037;
+
+
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer span {
+    font-size: 0.9rem;
+}

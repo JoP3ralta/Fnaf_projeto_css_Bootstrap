@@ -1,0 +1,75 @@
+/* Define o fundo do site com a imagem */
+body {
+    background-image: url('img/fundo\ 3.jpg');
+    background-size: cover;
+ 
+    font-family: 'Arial', sans-serif;
+}
+
+#custom-navbar {
+    background: linear-gradient(to right, #795548, #000000);
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #ff5722;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #ffffff;
+}
+
+h2,
+p {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #795548;
+    border-color: #795548;
+}
+
+.btn-primary:hover {
+    background-color: #5d4037;
+    border-color: #5d4037;
+}
+
+.footer {
+    background: linear-gradient(to right, #795548, #000000);    color: #ffffff;
+    position: fixed;
+    margin-top: 100%;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer span {
+    font-size: 0.9rem;
+    
+}
+
+.login-box img {
+    border-radius: 8px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-control {
+    border-radius: 4px;
+    padding: 10px;
+}
